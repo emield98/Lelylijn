@@ -1,6 +1,6 @@
-# Project Lelylijn-KAW
+# Project PTAL/Travel Time Lelylijn
 
-This repository keeps track of the scripts used for our project about the KAW, carried out under the instructions of KAW Groningen.
+This repository keeps track of the scripts used for our project about the Lelylijn, carried out under the instructions of KAW Groningen and the Rijksuniversiteit of Groningen.
 
 ## Overview
 
