@@ -172,7 +172,7 @@ class ProcessPOITask(QgsTask):
 # Main script
 poi_layer = QgsProject.instance().mapLayersByName('POI')[0]
 road_network = QgsProject.instance().mapLayersByName('hartlijn_fiets_voet')[0]
-lelylijn_layer = QgsProject.instance().mapLayersByName('Lelylijn_sc1')[0]
+lelylijn_layer = QgsProject.instance().mapLayersByName('Lelylijn_sc1')[0] # Change this to the correct layer name
 
 # Create a new output layer for the results
 output_layer = QgsVectorLayer(f"Point?crs={poi_layer.crs().authid()}", "POI_SAP_Relationships", "memory")
